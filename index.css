@@ -1,0 +1,74 @@
+.btn{
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 8px;
+    line-height: 33px;
+    padding: 10px;
+    background-color:wheat;
+}
+.btn:hover{
+    background-color: gray;
+    color:white
+}
+.div1{
+    width: 30%;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.div2{
+    width: 30%;
+    background-color:teal;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.input_i{
+    margin-left: 10px;
+    
+}
+.coupan{
+    font-size: 26px;
+    line-height: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.div{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+@media screen and (max-width:576px) {
+   .div{
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+
+    
+   }
+
+   
+   .div1{
+            width: 100%;
+            text-align: center;
+            
+   }
+   .div2{
+            width: 100%;
+   }
+  }
